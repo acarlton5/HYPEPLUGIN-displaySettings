@@ -9,15 +9,15 @@ A Hyprland DankMaterialShell plugin that allows you to disable/enable your displ
 
 Registers 3 new ipc calls to dms
 
-- `dms ipc call displaySettings toggle`
-- `dms ipc call displaySettings open`
-- `dms ipc call displaySettings close`
+- `hype ipc call displaySettings toggle`
+- `hype ipc call displaySettings open`
+- `hype ipc call displaySettings close`
 
 ## Installation
 
 ### From Plugin Registry (Recommended)
 ```bash
-dms plugins install displaySettings
+hype plugins install displaySettings
 # or install using the plugins tab on DMS settings
 ```
 
@@ -27,7 +27,7 @@ dms plugins install displaySettings
 cp -r "displaySettings" ~/.config/DankMaterialShell/plugins/
 
 # Enable in DMS plugins tab
-# run `dms ipc call displaySettings open` to display the menu
+# run `hype ipc call displaySettings open` to display the menu
 ```
 
 ## Configuration

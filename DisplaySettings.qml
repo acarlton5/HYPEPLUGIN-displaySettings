@@ -9,7 +9,7 @@ PluginSettings {
 
     StyledText {
         anchors.verticalCenter: parent.verticalCenter
-        text: "You can open/close the menu by running 'dms ipc call displaySettings [toggle|open|close]'"
+        text: "You can open/close the menu by running 'hype ipc call displaySettings [toggle|open|close]'"
         font.pixelSize: Theme.fontSizeLarge
         color: Theme.primary
         width: parent.width
